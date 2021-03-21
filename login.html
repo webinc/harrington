@@ -1,0 +1,18 @@
+<div class="register" id="h_login_form">
+    <h2>Login</h2>
+    <form id="login-form" action="register.php" method="post"> 
+        <div id="login-error-message" class="alert" style="display:none"></div>
+        <label for="username">
+            <i class="fas fa-user"></i>
+        </label>
+        <input type="text" name="username" placeholder="Username" id="log-username" required>
+        <label for="password">
+            <i class="fas fa-lock"></i>
+        </label>
+        <input type="password" name="password" placeholder="Password" id="log-password" autocomplete="new-password" required>
+        <input hidden type="text" name="authenticate" value="login">
+        <!-- a dummy input field so the ajax call has a nothing value for 'log-email' -->
+        <input hidden type="text" name="unusedemail" id="log-email" value="">
+        <input id="submit-login" class="submit-button" type="submit" value="Login">
+    </form>
+</div>

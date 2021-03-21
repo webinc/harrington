@@ -1,0 +1,25 @@
+<div class="register" id="h_register_form">
+    <h2>Register</h2>
+    <form id="register-form" action="register.php" method="post" autocomplete="off">
+        <div id="register-error-message" class="alert" style="display:none"></div>
+        <label for="username">
+            <i class="fas fa-user"></i>
+        </label>
+        <input type="text" name="username" placeholder="Username" id="reg-username" autofill="off" required>
+        <label for="password">
+            <i class="fas fa-lock"></i>
+        </label>
+        <input type="password" name="password" placeholder="Password" id="reg-password" class="pw-check" autocomplete="new-password" required>
+        <label for="confirm-password">
+            <i class="fas fa-lock"></i>
+        </label>
+        <input type="password" name="confirm-password" placeholder="Confirm Password" id="reg-confirm-password" class="pw-check" autocomplete="new-password" required>        
+        <label for="email">
+            <i class="fas fa-envelope"></i>
+        </label>
+        <input type="email" name="email" placeholder="Email" id="reg-email" required>
+        <!-- make sure we know this comes from the registration form -->
+        <input hidden type="text" name="authenticate" value="register" >
+        <input id="submit-register" class="submit-button" type="submit" value="Register">
+    </form>
+</div>
