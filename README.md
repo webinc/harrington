@@ -1,4 +1,4 @@
-# harr
+# harrington
 Test project for Harrington Residences.
 
 This is a simple example website following the instructions provided in Candidate Technical Test.
