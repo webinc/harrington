@@ -4,9 +4,9 @@ Test project for Harrington Residences.
 This is a simple example website following the instructions provided in Candidate Technical Test.
 
 Installation:
-1. Download the zip file, unpack it and move the child /harrington folder to your xampp/htdocs folder. 
+1. Download the zip file and unpack it in your xampp/htdocs folder. 
 2. Navigate to http://localhost/harrington and click the button to set up the database.
-3. That process creates the database and stores the credentials in dbcreds.php
+3. That process enables the storage and verification of users for the website's login.
 
 Usage:
 On the homepage there are selector buttons for each of the 6 locations. Click a selector button to see the carousel for that location.
